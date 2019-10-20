@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## This function creates a special "matrix" object
 
 makeCacheMatrix <- function(x = matrix()) {
 inv2 <- NULL
@@ -16,11 +16,11 @@ inv2 <- NULL
 }
 
 
-## Решение cacheSolve для задания
+## This function for to getting a Solve
 
 cacheSolve <- function(x, ...) {
        inv2 <- x$getinverse()
-    if(!is.null(inv)) {
+    if(!is.null(inv2)) {
         message("getting cached data.")
         return(inv2)
     }
