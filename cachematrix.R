@@ -2,6 +2,7 @@
 ## functions do
 
 ## This function creates a special "matrix" object
+## this easy for reading and understending)
 
 makeCacheMatrix <- function(x = matrix()) {
 inv2 <- NULL
@@ -17,6 +18,7 @@ inv2 <- NULL
 
 
 ## This function for to getting a Solve
+## ...And this easy for reading and understending
 
 cacheSolve <- function(x, ...) {
        inv2 <- x$getinverse()
